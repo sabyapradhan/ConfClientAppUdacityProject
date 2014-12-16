@@ -1,0 +1,32 @@
+C:\AndroidClients\ConfClientApp>keytool -exportcert -alias androiddebugkey -keys
+tore C:\Users\sachi\.android\debug.keystore -list -v
+Enter keystore password:
+Alias name: androiddebugkey
+Creation date: Dec 4, 2014
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Android Debug, O=Android, C=US
+Issuer: CN=Android Debug, O=Android, C=US
+Serial number: 72361ecb
+Valid from: Thu Dec 04 17:48:09 EST 2014 until: Sat Nov 26 17:48:09 EST 2044
+Certificate fingerprints:
+         MD5:  EC:D5:71:00:8C:41:7F:BB:88:43:99:15:DA:69:9D:B4
+         SHA1: F6:48:BA:F7:F8:C4:C1:75:8B:A8:FB:82:B7:AA:D2:31:06:36:60:23
+         SHA256: A9:4B:5E:6F:DF:78:92:3F:CF:81:99:3E:E0:86:DB:F5:B3:15:CB:70:A4:
+FE:EE:E1:30:F4:4D:F3:6B:A4:15:DA
+         Signature algorithm name: SHA256withRSA
+         Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: F5 17 F6 74 1B 52 1E 8C   78 AF EA AD D9 2A E9 37  ...t.R..x....*.7
+0010: 72 42 F7 EC                                        rB..
+]
+]
+
+
+C:\AndroidClients\ConfClientApp>
